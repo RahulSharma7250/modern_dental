@@ -90,7 +90,7 @@ export function Hero() {
                 <div className="flex -space-x-2">
                   {[1, 2, 3, 4].map(i => (
                     <div key={i} className="h-7 w-7 rounded-full border-1.5 border-dental-dark overflow-hidden bg-zinc-800">
-                      <Image src={`https://i.pravatar.cc/100?img=${i+10}`} alt="User" width={28} height={28} />
+                      <Image src={i === 1 ? "/doct3.jpeg?q=80&w=150&auto=format&fit=crop" : i === 2 ? "/doct.jpeg?q=80&w=150&auto=format&fit=crop" : i === 3 ? "/white2.jpeg?q=80&w=150&auto=format&fit=crop" : "/fix.jpeg?q=80&w=150&auto=format&fit=crop"} alt="User" width={28} height={28} />
                     </div>
                   ))}
                 </div>
