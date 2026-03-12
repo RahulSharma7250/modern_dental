@@ -47,7 +47,7 @@ export default function ServicesPage() {
             <div className="relative order-2 lg:order-1 aspect-video rounded-2xl sm:rounded-3xl lg:rounded-[3rem] overflow-hidden shadow-xl lg:shadow-2xl border border-slate-200">
               <iframe 
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/o2z16Oz-B7g" 
+                src="" 
                 title="Technology at Denta"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowFullScreen
